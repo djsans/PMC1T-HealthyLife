@@ -13,5 +13,10 @@ namespace FinalMYA
         {
 
         }
+
+        protected void QuieroR_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("medicoInt1.aspx");
+        }
     }
 }
