@@ -67,12 +67,14 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="cssSinFooter.css" />
+    <Content Include="DQuienes Somos.aspx" />
     <Content Include="editarHorario.aspx" />
     <Content Include="Esqueleto.Master" />
     <Content Include="FotosDoctores\DocH.png" />
     <Content Include="FotosDoctores\DocM.png" />
     <Content Include="FotosDoctores\fotoP.png" />
     <Content Include="Imagenes\Banda.png" />
+    <Content Include="Imagenes\concurso-medicos-2016-vagas.jpg" />
     <Content Include="perfilMedico.aspx" />
     <None Include="packages.config" />
     <None Include="Web.Debug.config">
@@ -130,6 +132,13 @@
     </Compile>
     <Compile Include="default.aspx.designer.cs">
       <DependentUpon>default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="DQuienes Somos.aspx.cs">
+      <DependentUpon>DQuienes Somos.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="DQuienes Somos.aspx.designer.cs">
+      <DependentUpon>DQuienes Somos.aspx</DependentUpon>
     </Compile>
     <Compile Include="editarHorario.aspx.cs">
       <DependentUpon>editarHorario.aspx</DependentUpon>
