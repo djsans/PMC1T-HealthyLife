@@ -15,7 +15,7 @@
         </header>
         <div>
 
-            <div style="background-color: #5DADE2; padding: 15px; text-align: center;">
+            <div style="background-color: #5DADE2;border-top:2px solid black; padding: 15px; text-align: center;">
                 <h1 style="margin: 10px; font-size: 50px; font-family: 'Eras ITC'; color: white;">¿Que es my appointments?</h1>
                 <p style="font-size: 35px; color: #414141;">
                     My appointments es una web diseñada para contactar a pacientes y medicos particulares
