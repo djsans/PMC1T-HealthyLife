@@ -68,6 +68,7 @@
   <ItemGroup>
     <Content Include="cssSinFooter.css" />
     <Content Include="Dcontacto.aspx" />
+    <Content Include="default2.aspx" />
     <Content Include="DQuienes Somos.aspx" />
     <Content Include="editarHorario.aspx" />
     <Content Include="Esqueleto.Master" />
@@ -140,6 +141,13 @@
     </Compile>
     <Compile Include="default.aspx.designer.cs">
       <DependentUpon>default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="default2.aspx.cs">
+      <DependentUpon>default2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="default2.aspx.designer.cs">
+      <DependentUpon>default2.aspx</DependentUpon>
     </Compile>
     <Compile Include="DQuienes Somos.aspx.cs">
       <DependentUpon>DQuienes Somos.aspx</DependentUpon>
