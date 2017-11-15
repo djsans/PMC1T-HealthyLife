@@ -6,16 +6,14 @@
     </div>
     <br style="clear: both;" />
     <h2 style="text-align:center; color: #2471A3; font-weight: bold;">Inicia tu sesion</h2>
-    <div style="text-align: center; margin-top: 50px;">
+    <div style="text-align: center; margin-top: 35px;">
         <input id="Cod" class="asd"
             type="text" placeholder="Correo Electronico" />
-        <br />
         <br />
         <br />
         <input id="Text1" class="asd"
             type="text" placeholder="Contraseña" />
     </div>
-    <br />
     <br />
     <br />
     <div style="text-align: center;">

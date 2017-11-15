@@ -177,3 +177,235 @@ td {
 .container{
     text-align:center;
 }
+.button {
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 4px;
+    background-color: #007FFF;
+    border: none;
+    color: white;
+    text-align: center;
+    font-size: 15px;
+    padding: 5px;
+    width: 100px;
+    height: auto;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: none;
+}
+
+    .button:hover {
+        background-color: white;
+    }
+
+    .button span {
+        text-align: center;
+        cursor: pointer;
+        position: auto;
+        transition: 0.5s;
+        color: black;
+    }
+
+        .button span:after {
+            margin-left: 30px;
+            content: 'Inicio';
+            position: relative;
+            opacity: 0;
+            top: 0;
+            right: -15px;
+            transition: 1s;
+        }
+
+    .button:hover span {
+        padding-right: 25px;
+    }
+
+        .button:hover span:after {
+            opacity: 1;
+            right: 0;
+        }
+.buttonQuienesSomos {
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 4px;
+    background-color: #007FFF;
+    border: none;
+    color: white;
+    text-align: center;
+    font-size: 15px;
+    padding: 5px;
+    width: 100px;
+    height: auto;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: none;
+}
+
+    .buttonQuienesSomos:hover {
+        background-color: white;
+    }
+
+    .buttonQuienesSomos span {
+        text-align: center;
+        cursor: pointer;
+        position: auto;
+        transition: 0.5s;
+        color: black;
+    }
+
+        .buttonQuienesSomos span:after {
+            margin-left: 5px;
+            content: "Quienes somos";
+            position: relative;
+            opacity: 0;
+            top: 0;
+            right: -15px;
+            transition: 1s;
+        }
+
+    .buttonQuienesSomos:hover span {
+        padding-right: 0px;
+    }
+
+        .buttonQuienesSomos:hover span:after {
+            opacity: 1;
+            right: 0;
+        }
+
+.buttonDoctores {
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 4px;
+    background-color: #007FFF;
+    border: none;
+    color: white;
+    text-align: center;
+    font-size: 15px;
+    padding: 5px;
+    width: 120px;
+    height: 90px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: none;
+}
+
+    .buttonDoctores:hover {
+        background-color: white;
+    }
+
+    .buttonDoctores span {
+        text-align: center;
+        cursor: pointer;
+        position: auto;
+        transition: 0.5s;
+        color: black;
+    }
+
+        .buttonDoctores span:after {
+            margin-left: 5px;
+            content: "Doctores";
+            position: relative;
+            opacity: 0;
+            top: 0;
+            right: -15px;
+            transition: 1s;
+        }
+
+    .buttonDoctores:hover span {
+        padding-right: 0px;
+    }
+
+        .buttonDoctores:hover span:after {
+            opacity: 1;
+            right: 0;
+        }
+
+.general {
+    display: inline-block;
+    /*border-radius: 4px;
+    background-color: #007FFF;
+    border: none;*/
+    background-image: url('imagenes/home-64.png');
+    background-repeat: no-repeat;
+    text-align: center;
+    padding: 60px 10px 5px 10px;
+    border: 1px solid;
+    color: black;
+    font-size: 15px;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+
+.QS span {
+    text-align: center;
+    cursor: pointer;
+    position: auto;
+    transition: 0.5s;
+}
+
+    .QS span:after {
+        margin-left: 5px;
+        content: "Quienes somos";
+        position: relative;
+        opacity: 0;
+        top: 0;
+        right: -15px;
+        transition: 1s;
+    }
+
+.QS:hover span {
+    padding-right: 0px;
+}
+
+    .QS:hover span:after {
+        opacity: 1;
+        right: 0;
+    }
+
+.buttonContacto {
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 4px;
+    background-color: #007FFF;
+    border: none;
+    color: white;
+    text-align: center;
+    font-size: 15px;
+    padding: 5px;
+    width: 120px;
+    height: 90px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: none;
+}
+
+    .buttonContacto:hover {
+        background-color: white;
+    }
+
+    .buttonContacto span {
+        text-align: center;
+        cursor: pointer;
+        position: auto;
+        transition: 0.5s;
+        color: black;
+    }
+
+        .buttonContacto span:after {
+            margin-left: 5px;
+            content: "Contactanos";
+            position: relative;
+            opacity: 0;
+            top: 0;
+            right: -15px;
+            transition: 1s;
+        }
+
+    .buttonContacto:hover span {
+        padding-right: 0px;
+    }
+
+        .buttonContacto:hover span:after {
+            opacity: 1;
+            right: 0;
+        }

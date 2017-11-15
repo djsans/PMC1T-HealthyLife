@@ -30,6 +30,19 @@
         <header>
             <img src="imagenes/logo__0__497%20(1).png" />
         </header>
+        <div style="background-color:#007FFF; padding:10px; text-align:center">
+            <a class="button" href="default.aspx" style="vertical-align:middle" onclick="inicio" type="submit"><span>
+                <img src="imagenes/home-64.png" />
+                </span></a>
+            
+            <a class="buttonQuienesSomos" href="DQuienes Somos.aspx"  style="vertical-align:middle"><span>
+                <img src="imagenes/ui-04-2-64.png" /></span></a>
+            
+            <a class="buttonDoctores" href="clienteInt1.aspx" onclick="Doctores"  style="vertical-align:middle"><span>
+                 <img src="imagenes/x-05-64.png" /></span></a>
+            <a class="buttonContacto" href="Dcontacto.aspx" onclick="Doctores"  style="vertical-align:middle"><span>
+                <img src="Imagenes/call-64.png" /></span></a>
+        </div>
         <div style="background-color: #5DADE2;border-top:2px solid black; padding: 15px; color: white;">
             <h1 style="margin: 10px; font-size: 50px; font-family: 'Eras ITC'; color: #5A5957;">Contactenos</h1>
             <h2>Tu opinion es importante para nosotros</h2>

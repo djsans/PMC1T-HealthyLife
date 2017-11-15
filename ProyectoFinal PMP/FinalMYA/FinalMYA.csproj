@@ -68,7 +68,7 @@
   <ItemGroup>
     <Content Include="cssSinFooter.css" />
     <Content Include="Dcontacto.aspx" />
-    <Content Include="default2.aspx" />
+    <Content Include="default.aspx" />
     <Content Include="DQuienes Somos.aspx" />
     <Content Include="editarHorario.aspx" />
     <Content Include="Esqueleto.Master" />
@@ -78,6 +78,12 @@
     <Content Include="Imagenes\Banda.png" />
     <Content Include="Imagenes\concurso-medicos-2016-vagas.jpg" />
     <Content Include="Imagenes\fondoD.jpg" />
+    <Content Include="Imagenes\Home-48.png" />
+    <Content Include="Imagenes\home-64.png" />
+    <Content Include="Imagenes\ringing-phone-64.png" />
+    <Content Include="Imagenes\ui-04-2-64.png" />
+    <Content Include="Imagenes\x-05-64.png" />
+    <Content Include="Imagenes\call-64.png" />
     <Content Include="perfilMedico.aspx" />
     <None Include="packages.config" />
     <None Include="Web.Debug.config">
@@ -90,7 +96,6 @@
   <ItemGroup>
     <Content Include="clienteInt1.aspx" />
     <Content Include="css.css" />
-    <Content Include="default.aspx" />
     <Content Include="Gine\Armando.aspx" />
     <Content Include="Gine\Bruno.aspx" />
     <Content Include="Gine\Fiorella.aspx" />
@@ -117,8 +122,10 @@
     <Content Include="Ped\Mariano.aspx" />
     <Content Include="Ped\Priscilla.aspx" />
     <Content Include="Ped\Selene.aspx" />
+    <Content Include="PINCodeLogin.aspx" />
     <Content Include="regexitoso.aspx" />
     <Content Include="Registro.aspx" />
+    <Content Include="termsofuse.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -142,13 +149,6 @@
     </Compile>
     <Compile Include="default.aspx.designer.cs">
       <DependentUpon>default.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="default2.aspx.cs">
-      <DependentUpon>default2.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="default2.aspx.designer.cs">
-      <DependentUpon>default2.aspx</DependentUpon>
     </Compile>
     <Compile Include="DQuienes Somos.aspx.cs">
       <DependentUpon>DQuienes Somos.aspx</DependentUpon>
@@ -321,6 +321,13 @@
     <Compile Include="Ped\Selene.aspx.designer.cs">
       <DependentUpon>Selene.aspx</DependentUpon>
     </Compile>
+    <Compile Include="PINCodeLogin.aspx.cs">
+      <DependentUpon>PINCodeLogin.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PINCodeLogin.aspx.designer.cs">
+      <DependentUpon>PINCodeLogin.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="regexitoso.aspx.cs">
       <DependentUpon>regexitoso.aspx</DependentUpon>
@@ -342,6 +349,13 @@
     </Compile>
     <Compile Include="perfilMedico.aspx.designer.cs">
       <DependentUpon>perfilMedico.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="termsofuse.aspx.cs">
+      <DependentUpon>termsofuse.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="termsofuse.aspx.designer.cs">
+      <DependentUpon>termsofuse.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>

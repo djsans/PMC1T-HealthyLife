@@ -1,35 +1,51 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Esqueleto.Master" AutoEventWireup="true" CodeBehind="default.aspx" Inherits="FinalMYA._default" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="default.aspx.cs" Inherits="FinalMYA.default2" %>
 
-<asp:Content ID="Content1" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
-    <div style="text-align: center; float: left; width: 50%;">
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <img src="imagenes/child_boy-128.png" />
-        <br />
-        <asp:button id="Button1" runat="server" text="Paciente" OnClick="Button1_Click" />
-    </div>
-    <div style="text-align: center;">
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <img src="imagenes/x-05-128.png" />
-        <br />
-        <asp:button id="Button2" runat="server" text="Doctor" OnClick="Button2_Click" />
-    </div>
+<!DOCTYPE html>
 
-</asp:Content>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title></title>
+    <link href="cssSinFooter.css" rel="stylesheet" />
+</head>
+<body>
+    <form id="form1" runat="server">
+        <header>
+            <img src="imagenes/logo__0__497%20(1).png" />
+        </header>
+        <div style="background-color:#007FFF; padding:10px; text-align:center">
+            <a class="button" href="default.aspx" style="vertical-align:middle" onclick="inicio" type="submit"><span>
+                <img src="imagenes/home-64.png" />
+                </span></a>
+            
+            <a class="buttonQuienesSomos" href="DQuienes Somos.aspx"  style="vertical-align:middle"><span>
+                <img src="imagenes/ui-04-2-64.png" /></span></a>
+            
+            <a class="buttonDoctores" href="clienteInt1.aspx" onclick="Doctores"  style="vertical-align:middle"><span>
+                 <img src="imagenes/x-05-64.png" /></span></a>
+            <a class="buttonContacto" href="Dcontacto.aspx" onclick="Doctores"  style="vertical-align:middle"><span>
+                <img src="Imagenes/call-64.png" /></span></a>
+        </div>
+        <br />
+        <br />
+        <div style="width: auto; height: auto">
+            <div style="margin-left: 425px; background-image: url(https://bloximages.newyork1.vip.townnews.com/greensboro.com/content/tncms/assets/v3/editorial/e/13/e133258f-a22b-5117-ad76-1bbcd1155cf2/574e36637ddcd.image.jpg); width: 760px;">
+                <div style="background-color: rgba(6, 6, 6, 0.4); height: 500px; text-align: center;">
+                    <br />
+                    <a style="text-decoration: none; color: white; font-family: 'Eras ITC'; font-size: 50px; background-color: orange;">MyAppointments</a>
+                    <h2 style="color: white; font-size: 34px;">Es una web que te ayudara a encontrar medicos particulares.
+                    </h2>
+                    <h2 style="color: white; font-size: 34px;">Podras buscarlos de acuerdo a la especialidad que buscas, ver los datos que te interesan
+                        y el horario para que sepas su disponibilidad.
+                    </h2>
+                    <h2 style="color: white; font-size: 34px;">Para buscarlos haz click en el boton medicos que aparece en la parte superior</h2>
+                </div>
+            </div>
+        </div>
+        <br />
+        <footer>
+            <p>My Appointments</p>
+        </footer>
+    </form>
+</body>
+</html>
