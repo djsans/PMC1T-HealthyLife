@@ -1,25 +1,22 @@
 ﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Esqueleto.master.cs" Inherits="FinalMYA.Esqueleto" %>
-
 <!DOCTYPE html>
-
 <html>
 <head runat="server">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <title></title>
+    <title>My Appointments</title>
     <link href="css.css" rel="stylesheet" />
+    <link href="Imagenes/logo__0__497%20(1).png" type="image/x-icon" rel="shortcut icon" />
 </head>
 <body>
     <header>
         <img src="imagenes/logo__0__497%20(1).png" />
     </header>
     <form id="form1" runat="server">
-        <div>
             <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
             </asp:ContentPlaceHolder>
-        </div>
     </form>
     <footer>
-        <p>My Appointments</p>
+        <p>My Appointments &copy;</p>
     </footer>
 
 </body>
