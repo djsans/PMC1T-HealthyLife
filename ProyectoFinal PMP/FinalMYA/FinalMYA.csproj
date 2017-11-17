@@ -360,6 +360,8 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="Estilos\" />
+    <Folder Include="js\" />
     <Folder Include="Models\" />
   </ItemGroup>
   <PropertyGroup>
