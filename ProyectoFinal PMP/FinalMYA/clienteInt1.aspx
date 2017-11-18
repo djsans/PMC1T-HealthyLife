@@ -16,9 +16,9 @@
         </script>
     </head>
     <body>
-        <h2 style="color:white; text-align:center; padding:20px;font-family: 'Eras ITC';">Aqui podras buscar el medico que mas te convenga puedes buscarlo por categorias, dando click
+        <h2 style="color:white; text-align:center; padding:20px;font-family: 'Eras ITC';">Aquí podras buscar el médico que mas te convenga puedes buscarlo por categorías, dando click
             al nombre iras directamente a su perfil. Si ya sabes a que medico buscaras escribe su codigo en el buscador
-            y apreta el boton buscar para ir a su perfil.
+            y apreta el bóton buscar para ir a su perfil.
         </h2>
 
         <div style="margin-left: 10px;">
@@ -59,7 +59,7 @@
                         <br />
                         <a href="ofta/Gabriel.aspx" style="text-decoration: none;">Gabriel Ruiz</a>
                     </div>
-                    <h3>Ginecologia</h3>
+                    <h3>Ginecología</h3>
                     <div id="doctoreshiperv">
 
                         <a href="Gine/Fiorella.aspx" style="text-decoration: none;">Fiorella Florez</a>
@@ -104,7 +104,7 @@
             </div>
         </div>
         <div id="bloqueB">
-            <h3 style="color:white;">Si ya conoces el código de tu medico escribelo en el buscador.</h3>
+            <h3 style="color:white;">Si ya conoces el código de tu médico escribelo en el buscador.</h3>
             <div>
                 <br />
                 <input id="BuscarCodigo" type="text" placeholder="Escribir Código" />
