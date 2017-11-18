@@ -27,17 +27,19 @@
             <h2 style="text-align: center; color: #2471A3;">Giovana Balcazar</h2>
             <div id="infoMedico2">
                 <h4>Especialidad:</h4>
-                <p>Odontologia</p>
+                <p>Odontología</p>
                 <h4>Sexo:</h4>
                 <p>Femenino</p>
-                <h4>Edad</h4>
-                <p>30</p>
-                <h4>Telefono</h4>
-                <p>99999999</p>
-                <h4>Código</h4>
+                <h4>Teléfono:</h4>
+                <p>99999999    /   333-4566</p>
+                <h4>Código:</h4>
                 <p>xxxxxxxxxx</p>
-                <h4>Dirección</h4>
-                <p>Av.Larco 155</p>
+                <h4>Dirección:</h4>
+                <p>Av.Larco 155 - Miraflores. Referencia frente al parque kennedy</p>
+                <h4>Descripción:</h4>
+                <p>Doctora con un muy buen trato con los pacientes, se dedicara todo el tiempo que sea necesario
+                    en la consulta para poder darle la mejor atencion y ayudarle en todo lo posible de la mejor forma.
+                </p>
             </div>
 
         </div>
