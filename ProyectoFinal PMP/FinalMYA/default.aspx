@@ -37,15 +37,27 @@
         #motivacion {
             text-align: justify;
         }
-        #motivacion h2{
-            text-align:center;
+
+            #motivacion h2 {
+                text-align: center;
+            }
+
+        #video {
+            height: 100%;
         }
-        #video{
-            height:100%;
-        }
-        #video iframe{
-            width:100%;
-            height:350px;
+
+            #video iframe {
+                width: 100%;
+                height: 350px;
+            }
+            #boton_empezar{
+                text-align:center;
+            }
+        .botoncito{
+            width:50%;
+            height:60px;
+            margin:10px;
+            font-size:25px;
         }
     </style>
     <nav class="navbar navbar-default">
@@ -122,12 +134,14 @@ No esperes a enfermarte, mejor prevente, cuida de ti y de los tuyos, recuerda qu
                 </p>
             </div>
             <div id="video" class="col-md-5">
-                <iframe  src="https://www.youtube.com/embed/ugm4MhDTtxQ"></iframe>
+                <iframe src="https://www.youtube.com/embed/ugm4MhDTtxQ"></iframe>
             </div>
 
         </div>
-        <div>
-
+        <div id="boton_empezar">
+            <h3>¿Te gustaría conocer algunos de nuestros doctores?</h3>
+            <asp:Button ID="empezar" runat="server" Text="Empieza ya" CssClass="btn btn-warning botoncito" OnClick="empezar_Click" />
         </div>
+
     </section>
 </asp:Content>

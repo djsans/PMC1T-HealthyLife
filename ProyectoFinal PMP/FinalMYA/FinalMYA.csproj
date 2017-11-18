@@ -136,7 +136,7 @@
     <Content Include="Imagenes\horario.png" />
     <Content Include="Imagenes\logo_myappointments.png" />
     <Content Include="Imagenes\x-05-128.png" />
-    <Content Include="medicoInt1.aspx" />
+    <Content Include="Login.aspx" />
     <Content Include="Odo\Alvaro.aspx" />
     <Content Include="Odo\Ammy.aspx" />
     <Content Include="Odo\Giovana.aspx" />
@@ -246,12 +246,12 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
-    <Compile Include="medicoInt1.aspx.cs">
-      <DependentUpon>medicoInt1.aspx</DependentUpon>
+    <Compile Include="Login.aspx.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="medicoInt1.aspx.designer.cs">
-      <DependentUpon>medicoInt1.aspx</DependentUpon>
+    <Compile Include="Login.aspx.designer.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
     </Compile>
     <Compile Include="Odo\Alvaro.aspx.cs">
       <DependentUpon>Alvaro.aspx</DependentUpon>

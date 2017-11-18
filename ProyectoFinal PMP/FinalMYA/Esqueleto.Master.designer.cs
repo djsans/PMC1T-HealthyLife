@@ -13,6 +13,24 @@ namespace FinalMYA {
     public partial class Esqueleto {
         
         /// <summary>
+        /// Control ev_login.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.LoginView ev_login;
+        
+        /// <summary>
+        /// Control LoginName1.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.LoginName LoginName1;
+        
+        /// <summary>
         /// Control form1.
         /// </summary>
         /// <remarks>

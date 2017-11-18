@@ -14,5 +14,10 @@ namespace FinalMYA
         {
 
         }
+
+        protected void empezar_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("Registro.aspx");
+        }
     }
 }
