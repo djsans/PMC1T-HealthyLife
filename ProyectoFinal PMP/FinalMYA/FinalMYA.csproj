@@ -66,12 +66,18 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Scripts\npm.js" />
+    <Content Include="estilo\bootstrap-theme.css" />
+    <Content Include="estilo\bootstrap-theme.min.css" />
+    <Content Include="estilo\bootstrap.css" />
+    <Content Include="estilo\bootstrap.min.css" />
     <Content Include="cssSinFooter.css" />
     <Content Include="Dcontacto.aspx" />
     <Content Include="Default.aspx" />
     <Content Include="DQuienes Somos.aspx" />
     <Content Include="editarHorario.aspx" />
     <Content Include="Esqueleto.Master" />
+    <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="FotosDoctores\DocH.png" />
     <Content Include="FotosDoctores\DocM.png" />
     <Content Include="FotosDoctores\fotoP.png" />
@@ -84,8 +90,30 @@
     <Content Include="Imagenes\ui-04-2-64.png" />
     <Content Include="Imagenes\x-05-64.png" />
     <Content Include="Imagenes\call-64.png" />
+    <Content Include="Images\carrusel5.png" />
+    <Content Include="Images\carrusel1.jpg" />
+    <Content Include="Images\carrusel2.jpg" />
+    <Content Include="Images\carrusel3.jpg" />
+    <Content Include="Images\carrusel4.jpg" />
     <Content Include="perfilMedico.aspx" />
+    <Content Include="fonts\glyphicons-halflings-regular.woff2" />
+    <Content Include="fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="estilo\bootstrap.min.css.map" />
+    <Content Include="estilo\bootstrap.css.map" />
+    <Content Include="estilo\bootstrap-theme.min.css.map" />
+    <Content Include="estilo\bootstrap-theme.css.map" />
     <None Include="packages.config" />
+    <None Include="Scripts\jquery-3.2.1.intellisense.js" />
+    <Content Include="Scripts\bootstrap.js" />
+    <Content Include="Scripts\bootstrap.min.js" />
+    <Content Include="Scripts\jquery-3.2.1.js" />
+    <Content Include="Scripts\jquery-3.2.1.min.js" />
+    <Content Include="Scripts\jquery-3.2.1.slim.js" />
+    <Content Include="Scripts\jquery-3.2.1.slim.min.js" />
+    <Content Include="Scripts\jquery-3.2.1.slim.min.map" />
+    <Content Include="Scripts\jquery-3.2.1.min.map" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -360,8 +388,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="Estilos\" />
-    <Folder Include="js\" />
     <Folder Include="Models\" />
   </ItemGroup>
   <PropertyGroup>
