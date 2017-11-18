@@ -3,22 +3,20 @@
 }
 
 header {
-    text-align: center;
     background-color: white;
+}
+#sesion{
+    background-color:white;
 }
 
 footer {
     color: #7675AA;
     font-size: 20px;
     font-family: 'Berlin Sans FB';
-    width: 100%;
     background-color: white;
     text-align: center;
-    position: absolute;
-    bottom: 0px;
     border-top: solid;
     border-top-color: #5D6D7E;
-    width: 100%
 }
 
 button.accordion {

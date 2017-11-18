@@ -19,7 +19,6 @@ footer {
     text-align: center;
     border-top: solid;
     border-top-color: #5D6D7E;
-    width: 100%
 }
 
 button.accordion {
@@ -305,7 +304,6 @@ td {
         opacity: 1;
         right: 0;
     }
-}
 
 .buttonContacto {
     text-decoration: none;
