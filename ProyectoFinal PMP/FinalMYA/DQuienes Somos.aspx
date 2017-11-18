@@ -16,15 +16,18 @@
         <div style="background-color:#007FFF; padding:10px; text-align:center">
             <a class="button" href="default.aspx" style="vertical-align:middle" onclick="inicio" type="submit"><span>
                 <img src="imagenes/home-64.png" />
+                <p>Inicio</p>
                 </span></a>
             
             <a class="buttonQuienesSomos" href="DQuienes Somos.aspx"  style="vertical-align:middle"><span>
-                <img src="imagenes/ui-04-2-64.png" /></span></a>
+                <img src="imagenes/ui-04-2-64.png" /><p>Quienes Somos</p></span></a>
+                
             
             <a class="buttonDoctores" href="clienteInt1.aspx" onclick="Doctores"  style="vertical-align:middle"><span>
-                 <img src="imagenes/x-05-64.png" /></span></a>
-            <a class="buttonContacto" href="Dcontacto.aspx" onclick="Doctores"  style="vertical-align:middle"><span>
-                <img src="Imagenes/call-64.png" /></span></a>
+                 <img src="imagenes/x-05-64.png" /><p>Ver Doctores</p></span></a>
+
+            <a class="button" href="Dcontacto.aspx" onclick="Doctores"  style="vertical-align:middle"><span>
+                <img src="Imagenes/call-64.png" /><p>Contactanos</p></span></a>
         </div>
         <div>
 

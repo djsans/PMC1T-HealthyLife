@@ -188,7 +188,7 @@ td {
     font-size: 15px;
     padding: 5px;
     width: 100px;
-    height: auto;
+    height: 110px;
     transition: all 0.5s;
     cursor: pointer;
     margin: none;
@@ -196,34 +196,19 @@ td {
 
     .button:hover {
         background-color: white;
+        color:black;
     }
 
-    .button span {
-        text-align: center;
-        cursor: pointer;
-        position: auto;
-        transition: 0.5s;
-        color: black;
-    }
 
-        .button span:after {
-            margin-left: 30px;
-            content: 'Inicio';
-            position: relative;
-            opacity: 0;
-            top: 0;
-            right: -15px;
-            transition: 1s;
+        .button:hover span {
+            padding-right: 25px;
         }
 
-    .button:hover span {
-        padding-right: 25px;
-    }
+            .button:hover span:after {
+                opacity: 1;
+                right: 0;
+            }
 
-        .button:hover span:after {
-            opacity: 1;
-            right: 0;
-        }
 .buttonQuienesSomos {
     text-decoration: none;
     display: inline-block;
@@ -235,7 +220,7 @@ td {
     font-size: 15px;
     padding: 5px;
     width: 100px;
-    height: auto;
+    height: 110px;
     transition: all 0.5s;
     cursor: pointer;
     margin: none;
@@ -243,47 +228,31 @@ td {
 
     .buttonQuienesSomos:hover {
         background-color: white;
+        color:black;
     }
 
-    .buttonQuienesSomos span {
-        text-align: center;
-        cursor: pointer;
-        position: auto;
-        transition: 0.5s;
-        color: black;
-    }
 
-        .buttonQuienesSomos span:after {
-            margin-left: 5px;
-            content: "Quienes somos";
-            position: relative;
-            opacity: 0;
-            top: 0;
-            right: -15px;
-            transition: 1s;
+        .buttonQuienesSomos:hover span {
+            padding-right: 0px;
         }
 
-    .buttonQuienesSomos:hover span {
-        padding-right: 0px;
-    }
-
-        .buttonQuienesSomos:hover span:after {
-            opacity: 1;
-            right: 0;
-        }
+            .buttonQuienesSomos:hover span:after {
+                opacity: 1;
+                right: 0;
+            }
 
 .buttonDoctores {
+    color: white;
     text-decoration: none;
     display: inline-block;
     border-radius: 4px;
     background-color: #007FFF;
     border: none;
-    color: white;
     text-align: center;
     font-size: 15px;
     padding: 5px;
-    width: 120px;
-    height: 90px;
+    width: 100px;
+    height: 110px;
     transition: all 0.5s;
     cursor: pointer;
     margin: none;
@@ -291,34 +260,8 @@ td {
 
     .buttonDoctores:hover {
         background-color: white;
+        color:black
     }
-
-    .buttonDoctores span {
-        text-align: center;
-        cursor: pointer;
-        position: auto;
-        transition: 0.5s;
-        color: black;
-    }
-
-        .buttonDoctores span:after {
-            margin-left: 5px;
-            content: "Doctores";
-            position: relative;
-            opacity: 0;
-            top: 0;
-            right: -15px;
-            transition: 1s;
-        }
-
-    .buttonDoctores:hover span {
-        padding-right: 0px;
-    }
-
-        .buttonDoctores:hover span:after {
-            opacity: 1;
-            right: 0;
-        }
 
 .general {
     display: inline-block;
@@ -361,6 +304,7 @@ td {
         opacity: 1;
         right: 0;
     }
+}
 
 .buttonContacto {
     text-decoration: none;
@@ -372,8 +316,8 @@ td {
     text-align: center;
     font-size: 15px;
     padding: 5px;
-    width: 120px;
-    height: 90px;
+    width: 100px;
+    height: 110px;
     transition: all 0.5s;
     cursor: pointer;
     margin: none;
@@ -381,31 +325,5 @@ td {
 
     .buttonContacto:hover {
         background-color: white;
+        color:black;
     }
-
-    .buttonContacto span {
-        text-align: center;
-        cursor: pointer;
-        position: auto;
-        transition: 0.5s;
-        color: black;
-    }
-
-        .buttonContacto span:after {
-            margin-left: 5px;
-            content: "Contactanos";
-            position: relative;
-            opacity: 0;
-            top: 0;
-            right: -15px;
-            transition: 1s;
-        }
-
-    .buttonContacto:hover span {
-        padding-right: 0px;
-    }
-
-        .buttonContacto:hover span:after {
-            opacity: 1;
-            right: 0;
-        }
