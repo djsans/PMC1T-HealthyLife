@@ -59,7 +59,7 @@
         <br />
         <br />
         <div class="container">
-            <asp:Button ID="Button1" CssClass="btn" runat="server" Text="Editar Mi Perfil" />
+            <asp:Button ID="Button1" CssClass="btn" runat="server" Text="Editar Mi Perfil" OnClick="Button1_Click" />
             <!-- Trigger the modal with a button -->
             <button type="button" id="btnH" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">Ver Mi Horario</button>
 

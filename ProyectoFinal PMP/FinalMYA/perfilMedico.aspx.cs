@@ -18,5 +18,10 @@ namespace FinalMYA
         {
             Response.Redirect("editarHorario.aspx");
         }
+
+        protected void Button1_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("editarPerfil.aspx");
+        }
     }
 }

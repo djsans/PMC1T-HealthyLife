@@ -66,6 +66,8 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="editarPerfil.aspx" />
+    <Content Include="Imagenes\profle-256.png" />
     <Content Include="Scripts\npm.js" />
     <Content Include="estilo\bootstrap-theme.css" />
     <Content Include="estilo\bootstrap-theme.min.css" />
@@ -191,6 +193,13 @@
     </Compile>
     <Compile Include="editarHorario.aspx.designer.cs">
       <DependentUpon>editarHorario.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="editarPerfil.aspx.cs">
+      <DependentUpon>editarPerfil.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="editarPerfil.aspx.designer.cs">
+      <DependentUpon>editarPerfil.aspx</DependentUpon>
     </Compile>
     <Compile Include="Esqueleto.Master.cs">
       <DependentUpon>Esqueleto.Master</DependentUpon>

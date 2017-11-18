@@ -44,7 +44,7 @@
             </div>
 
         </div>
-        <div style="margin-top: 25px;">
+        <div style="margin-top: 25px; background-color:white;">
 
             <img style="margin-left: 30px; float: left" src="Imagenes/concurso-medicos-2016-vagas.jpg" />
             <div style="margin-right: 30px">
