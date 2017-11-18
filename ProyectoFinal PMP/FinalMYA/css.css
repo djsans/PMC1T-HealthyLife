@@ -1,14 +1,10 @@
 ﻿body {
-    margin: 0;
     font-family: Arial;
-
 }
 
 header {
     text-align: center;
     background-color: white;
-    border-bottom: solid;
-    border-bottom-color: #5D6D7E;
 }
 
 footer {
@@ -109,6 +105,7 @@ div.panel {
     .buttonatras:hover {
         border: 2px solid black;
         color: white;
+
     }
 
 table {
@@ -173,31 +170,19 @@ td {
     display: inline-block;
     border-radius: 4px;
     background-color: #007FFF;
-    border: none;
     color: white;
-    text-align: center;
     font-size: 15px;
     padding: 5px;
     width: 100px;
     height: 110px;
     transition: all 0.5s;
-    cursor: pointer;
-    margin: none;
-}
 
+}
     .button:hover {
         background-color: white;
+        text-decoration: none;
     }
 
-
-    .button:hover span {
-        padding-right: 25px;
-    }
-
-        .button:hover span:after {
-            opacity: 1;
-            right: 0;
-        }
 .buttonQuienesSomos {
     text-decoration: none;
     display: inline-block;
@@ -217,6 +202,7 @@ td {
 
     .buttonQuienesSomos:hover {
         background-color: white;
+        text-decoration: none;
     }
 
 

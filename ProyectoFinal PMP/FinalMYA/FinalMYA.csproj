@@ -134,7 +134,7 @@
     <Content Include="Global.asax" />
     <Content Include="Imagenes\child_boy-128.png" />
     <Content Include="Imagenes\horario.png" />
-    <Content Include="Imagenes\logo__0__497 %281%29.png" />
+    <Content Include="Imagenes\logo_myappointments.png" />
     <Content Include="Imagenes\x-05-128.png" />
     <Content Include="medicoInt1.aspx" />
     <Content Include="Odo\Alvaro.aspx" />
