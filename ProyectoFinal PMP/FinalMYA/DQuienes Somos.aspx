@@ -44,21 +44,26 @@
             </div>
 
         </div>
-        <div style="float: left; margin-top: 25px;">
-            <img style="margin-left:30px;" src="Imagenes/concurso-medicos-2016-vagas.jpg" />
-            <div style="float: right; width: auto; background-color: #5DADE2; padding: 15px; padding-top: none; color: white;">
-                <h1
-                    style="margin: 10px; font-size: 50px; font-family: 'Eras ITC';">Misión y Visión</h1>
-                <h2 style="color: #5A5957; font-size: 30px;">Misión</h2>
-                <p style="font-size: 20px;">
-                    Brindar la mas confiable informacion a cualquier persona que necesite contactar a un medico particular.
-                </p>
-                <h2 style="color: #5A5957; font-size: 30px;">Visión</h2>
-                <p style="font-size: 20px;">Ser reconocidos, y ser la primera opcion en el area de la salud al momento de contactar a medicos y clientes.</p>
+        <div style="margin-top: 25px;">
+
+            <img style="margin-left: 30px; float: left" src="Imagenes/concurso-medicos-2016-vagas.jpg" />
+            <div style="margin-right: 30px">
+                <div style="float: right; padding-left:20px;width: 900px; height: 336px; background-color: #5DADE2; color: white;">
+                    <h1
+                        style="margin: 10px; font-size: 50px; font-family: 'Eras ITC'; text-align:center">Misión y Visión</h1>
+                    <h2 style="color: #5A5957; font-size: 26px;">Misión</h2>
+                    <p style="font-size: 20px;">
+                        Brindar la mas confiable informacion a cualquier persona que necesite contactar a un medico particular.
+                    </p>
+                    <h2 style="color: #5A5957; font-size: 26px;">Visión</h2>
+                    <p style="font-size: 20px;">Ser reconocidos, y ser la primera opcion en el area de la salud al momento de contactar a medicos y clientes.</p>
+                </div>
             </div>
+
         </div>
 
         <br style="clear: both" />
+        <br />
         <footer>
             <p>My Appointments</p>
         </footer>
