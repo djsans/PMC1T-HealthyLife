@@ -1,6 +1,7 @@
 ﻿body {
     margin: 0;
     font-family: Arial;
+
 }
 
 header {
@@ -49,6 +50,7 @@ div.panel {
 #bloqueA {
     float: left;
     width: 500px;
+    margin-right:10px;
 }
 
 #bloqueB {
@@ -62,7 +64,7 @@ div.panel {
 #BuscarCodigo {
     border-radius: 6px;
     padding: 15px;
-    width:100px;
+    width:150px;
     border-right: 1px solid #3498DB;
     border-bottom: 1px solid #3498DB;
 }
@@ -70,7 +72,7 @@ div.panel {
     #BuscarCodigo:focus {
         background-color: #EBEDEF;
         padding: 25px;
-        width: 150px;
+        width: 200px;
     }
 
 #fotoMedico {
