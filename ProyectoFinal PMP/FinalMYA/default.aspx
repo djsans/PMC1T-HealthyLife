@@ -80,7 +80,7 @@
                     </a>
                 </li>
                 <li class="dropdown">
-                    <a class="btn_opciones" <%--class="buttonDoctores"--%> href="clienteInt1.aspx" onclick="Doctores" style="vertical-align: middle">
+                    <a class="btn_opciones" <%--class="buttonDoctores"--%> href="Doctores.aspx" onclick="Doctores" style="vertical-align: middle">
                         <div>
                             <img src="imagenes/x-05-64.png" />
                             <p>Ver Doctores</p>

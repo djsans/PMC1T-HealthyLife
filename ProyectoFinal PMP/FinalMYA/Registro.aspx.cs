@@ -14,9 +14,9 @@ namespace FinalMYA
 
         }
 
-        protected void Button1_Click(object sender, EventArgs e)
+        protected void ContinueButton_Click(object sender, EventArgs e)
         {
-            Response.Redirect("regexitoso.aspx");
+            Response.Redirect("Default.aspx");
         }
     }
 }

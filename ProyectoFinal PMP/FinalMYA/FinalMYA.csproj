@@ -66,6 +66,10 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="App_Data\Myappointments.mdf" />
+    <Content Include="App_Data\Myappointments_log.ldf">
+      <DependentUpon>Myappointments.mdf</DependentUpon>
+    </Content>
     <Content Include="editarPerfil.aspx" />
     <Content Include="Imagenes\profle-256.png" />
     <Content Include="Scripts\npm.js" />
@@ -124,7 +128,7 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="clienteInt1.aspx" />
+    <Content Include="Doctores.aspx" />
     <Content Include="css.css" />
     <Content Include="Gine\Armando.aspx" />
     <Content Include="Gine\Bruno.aspx" />
@@ -153,18 +157,17 @@
     <Content Include="Ped\Priscilla.aspx" />
     <Content Include="Ped\Selene.aspx" />
     <Content Include="PINCodeLogin.aspx" />
-    <Content Include="regexitoso.aspx" />
     <Content Include="Registro.aspx" />
     <Content Include="termsofuse.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="clienteInt1.aspx.cs">
-      <DependentUpon>clienteInt1.aspx</DependentUpon>
+    <Compile Include="Doctores.aspx.cs">
+      <DependentUpon>Doctores.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="clienteInt1.aspx.designer.cs">
-      <DependentUpon>clienteInt1.aspx</DependentUpon>
+    <Compile Include="Doctores.aspx.designer.cs">
+      <DependentUpon>Doctores.aspx</DependentUpon>
     </Compile>
     <Compile Include="Dcontacto.aspx.cs">
       <DependentUpon>Dcontacto.aspx</DependentUpon>
@@ -366,13 +369,6 @@
       <DependentUpon>PINCodeLogin.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="regexitoso.aspx.cs">
-      <DependentUpon>regexitoso.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="regexitoso.aspx.designer.cs">
-      <DependentUpon>regexitoso.aspx</DependentUpon>
-    </Compile>
     <Compile Include="Registro.aspx.cs">
       <DependentUpon>Registro.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -396,7 +392,6 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="App_Data\" />
     <Folder Include="Models\" />
   </ItemGroup>
   <PropertyGroup>

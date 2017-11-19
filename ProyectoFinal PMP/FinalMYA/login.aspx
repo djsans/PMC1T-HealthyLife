@@ -24,6 +24,4 @@
         <asp:Button ID="Button2" CssClass="btn"
             runat="server" Text="Registrarme" OnClick="Button2_Click" />
     </div>
-
-
 </asp:Content>

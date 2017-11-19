@@ -24,35 +24,28 @@
             #sesion div {
                 background-color: white;
             }
-        #logo{
-            margin-left:40.7%;
+
+        #logo {
+            margin-left: 40.7%;
         }
     </style>
-    <header>
-        <nav id="sesion" class="navbar navbar-inverse">
-            <div class="container-fluid">
-                <div id="logo" class="navbar-header">
-                    <img class="img-responsive" src="Imagenes/logo_myappointments.png" />
-                </div>
-                <ul class="nav navbar-nav navbar-right">
-                    <asp:LoginView ID="ev_login" runat="server">
-                        <AnonymousTemplate>
-                            <li><a href="Login.aspx"><span class="glyphicon glyphicon-log-in"></span> Iniciar Sesión </a></li>
-                            <li><a href="Registro.aspx"><span class="glyphicon glyphicon-user"></span> Registrarse </a></li>
-                        </AnonymousTemplate>
-                        <LoggedInTemplate>
-                            <li><a href="Default.aspx"><span class="glyphicon glyphicon-log-out"></span> Cerrar sesión </a></li>
-                        </LoggedInTemplate>
-                    </asp:LoginView>
-                    <asp:LoginName ID="LoginName1" runat="server" />
-                    
-                </ul>
-            </div>
-        </nav>
-
-    </header>
 
     <form id="form1" runat="server">
+        <header>
+            <nav id="sesion" class="navbar navbar-inverse">
+                <div class="container-fluid">
+                    <div id="logo" class="navbar-header">
+                        <img class="img-responsive" src="Imagenes/logo_myappointments.png" />
+                    </div>
+                    <div class="nav navbar-nav navbar-right">
+                        <asp:LoginStatus ID="LoginStatus1" runat="server" />
+                        <asp:LoginName ID="LoginName1" runat="server" />
+
+                    </div>
+                </div>
+            </nav>
+
+        </header>
         <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
         </asp:ContentPlaceHolder>
     </form>
