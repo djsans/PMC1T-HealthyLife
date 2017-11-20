@@ -47,7 +47,7 @@
         }
 
             #video iframe {
-                width: 100%;
+                width:100%;
                 height: 350px;
             }
 
@@ -66,7 +66,7 @@
         <div class="container-fluid" id="opciones">
             <ul class="nav navbar-nav">
                 <li class="dropdown">
-                    <a class="btn_opciones" <%--class="button"--%> href="default.aspx" style="vertical-align: middle" onclick="inicio" type="submit">
+                    <a class="btn_opciones" href="default.aspx" style="vertical-align: middle" onclick="inicio" type="submit">
                         <div>
                             <img src="imagenes/home-64.png" />
                             <p>Inicio</p>
@@ -74,7 +74,7 @@
                     </a>
                 </li>
                 <li class="dropdown">
-                    <a class="btn_opciones" <%--class="buttonQuienesSomos"--%> href="DQuienes Somos.aspx" style="vertical-align: middle">
+                    <a class="btn_opciones" href="DQuienes Somos.aspx" style="vertical-align: middle">
                         <div>
                             <img src="imagenes/ui-04-2-64.png" />
                             <p>Quienes Somos</p>
@@ -82,7 +82,7 @@
                     </a>
                 </li>
                 <li class="dropdown">
-                    <a class="btn_opciones" <%--class="buttonDoctores"--%> href="Doctores.aspx" onclick="Doctores" style="vertical-align: middle">
+                    <a class="btn_opciones" href="Doctores.aspx" onclick="Doctores" style="vertical-align: middle">
                         <div>
                             <img src="imagenes/x-05-64.png" />
                             <p>Ver Doctores</p>
@@ -90,7 +90,7 @@
                     </a>
                 </li>
                 <li class="dropdown">
-                    <a class="btn_opciones" <%--class="buttonContacto"--%> href="Dcontacto.aspx" onclick="Doctores" style="vertical-align: middle">
+                    <a class="btn_opciones" href="Dcontacto.aspx" onclick="Doctores" style="vertical-align: middle">
                         <div>
                             <img src="Imagenes/call-64.png" />
                             <p>Contactanos</p>
@@ -111,29 +111,6 @@
         <div class="row">
             <div id="motivacion" class="col-md-7">
                 <h2 style="font-size: 35px; color: #3498DB; font-family: 'Arial Rounded MT'">¿Cual es la importancia de MyAppointments?</h2>
-                <!--<p>
-                    Muchas personas que gozan de una buena salud creen que no es necesario asistir al médico de forma regular.
-
-Cabe destacar que a pesar de no estar enfermo es de suma importancia realizarse un chequeo cada seis meses, de ser posible.
-
-Una revisión cada seis meses ayuda a detectar enfermedades y éstas se pueden tratar a tiempo, sobre todo después de los 40 años.
-
-En la actualidad los estilos de vida tan absorbentes y los avances en medicamentos han orillado a realizar la automedicación sin saber que realizarla es muy delicado y perjudicial para la salud.
-
-Se debe evitar a toda costa la automedicación, ya que lejos de ayudarte, perjudica tu salud. La automedicación es nociva ya que desconoces la dosis y la temporalidad en que se deben consumir ciertos medicamentos y éstos pueden tener efectos secundarios, incluso afectar de manera grave tu salud.
-
-Cada cuerpo es distinto y las reacciones ante diversos medicamentos también, por tanto es importante asistir al médico para que determine el tratamiento adecuado a tu padecimiento, como habíamos comentado en textos anteriores es muy peligrosa para la salud además de que el uso no responsable de antibióticos genera resistencia.
-
-Es importante tener supervisión de un médico después de cierta edad, ya que esta nos ayudará para tener una mejor calidad de vida.
-
-Al llegar a una edad avanzada las visitas al médico deben aumentar, ya que el sistema inmunológico se va debilitando y es más probable contraer diversas enfermedades o sufrir insuficiencias en distintos órganos.
-
-En esta ocasión, como siempre, te sugerimos visitar a tu médico de confianza aunque no estés enfermo, ya que una revisión como medida preventiva puede ahorrarte malestares en el futuro.
-
-Hoy en día, con la tecnología y diversos estudios de laboratorio y gabinete, se pueden descubrir y prevenir enfermedades crónicas que pueden afectar tu calidad de vida.
-
-No esperes a enfermarte, mejor prevente, cuida de ti y de los tuyos, recuerda que tu salud es lo más valioso que tenemos en la vida.
-                </p>-->
                 <h3>Nosotros sabemos lo dificil que es poder ver un doctor en el seguro medico y lo caro que es ver un doctor en 
                     una clinica particular, teniendo en cuenta tambien que muchas veces los hospitales o clinicas no estan cerca
                     de tu vivienda.
@@ -158,7 +135,7 @@ No esperes a enfermarte, mejor prevente, cuida de ti y de los tuyos, recuerda qu
             o estar registrado solo dale click en el boton "Ver Doctores" que esta debajo de este texto.
         </h3>
         <div id="boton_empezar">
-            <a class="btn_opciones" <%--class="buttonDoctores"--%> href="Doctores.aspx"  style="vertical-align: middle">
+            <a class="btn_opciones" href="Doctores.aspx"  style="vertical-align: middle">
                 <div>
                     <img src="imagenes/x-05-64.png" />
                     <p>Ver Doctores</p>
