@@ -28,20 +28,89 @@
         #logo {
             margin-left: 40.7%;
         }
+
+        #opciones {
+            text-align: center;
+            padding: 0;
+        }
+
+            #opciones ul {
+                width: 100%;
+            }
+
+            #opciones li {
+                width: 25%;
+            }
+
+        .btn_opciones {
+            transition: all 0.5s;
+        }
+
+            .btn_opciones:hover {
+                background-color: white;
+                text-decoration: none;
+            }
     </style>
 
     <form id="form1" runat="server">
         <header>
-            <nav id="sesion" class="navbar navbar-inverse">
+            <nav class="navbar navbar-inverse" id="sesion">
                 <div class="container-fluid">
-                    <div id="logo" class="navbar-header">
-                        <img class="img-responsive" src="Imagenes/logo_myappointments.png" />
+                    <div class="navbar-header">
+                        <a class="navbar-brand" href="Default.aspx">
+                            <img class="img-responsive" src="Imagenes/logo_myappointments.png" />
+                        </a>
                     </div>
-                    <div class="nav navbar-nav navbar-right">
-                        <asp:LoginStatus ID="LoginStatus1" runat="server" />
-                        <asp:LoginName ID="LoginName1" runat="server" />
+                    <ul class="nav navbar-nav">
+                        <li class="dropdown">
+                            <a class="btn_opciones" href="default.aspx" style="vertical-align: middle" onclick="inicio" type="submit">
+                                <div>
+                                    <img src="imagenes/home-64.png" />
+                                    <p>Inicio</p>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="dropdown">
+                            <a class="btn_opciones" href="DQuienes Somos.aspx" style="vertical-align: middle">
+                                <div>
+                                    <img src="imagenes/ui-04-2-64.png" />
+                                    <p>Quienes Somos</p>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="dropdown">
+                            <a class="btn_opciones" href="Doctores.aspx" onclick="Doctores" style="vertical-align: middle">
+                                <div>
+                                    <img src="imagenes/x-05-64.png" />
+                                    <p>Ver Doctores</p>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="dropdown">
+                            <a class="btn_opciones" href="Dcontacto.aspx" onclick="Doctores" style="vertical-align: middle">
+                                <div>
+                                    <img src="Imagenes/call-64.png" />
+                                    <p>Contactanos</p>
+                                </div>
+                            </a>
+                        </li>
+                    </ul>
+                    <ul class="nav navbar-nav navbar-right">
+                        <asp:LoginView ID="LoginView1" runat="server">
+                            <AnonymousTemplate>
+                                <li>
+                                    <asp:Button ID="Button1" runat="server" Text="Button" OnClick="Button1_Click1" /></li>
+                                <li>
+                                    <asp:Button ID="Button2" runat="server" Text="Button" /></li>
+                            </AnonymousTemplate>
+                            <LoggedInTemplate>
+                                <li>
+                                    <asp:Button ID="Button1" runat="server" Text="Cerrar sesion" OnClick="Button1_Click2" /></li>
+                            </LoggedInTemplate>
+                        </asp:LoginView>
 
-                    </div>
+
+                    </ul>
                 </div>
             </nav>
 

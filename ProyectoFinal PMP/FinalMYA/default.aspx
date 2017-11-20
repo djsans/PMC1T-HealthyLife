@@ -2,29 +2,7 @@
 
 <asp:Content ID="Content1" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
     <style>
-        #opciones {
-            text-align: center;
-            padding: 0;
-        }
-
-            #opciones ul {
-                width: 100%;
-            }
-
-            #opciones li {
-                width: 25%;
-            }
-
-        .btn_opciones {
-            background-color: #007FFF;
-            transition: all 0.5s;
-        }
-
-            .btn_opciones:hover {
-                background-color: white;
-                text-decoration: none;
-            }
-
+        /*https://www.w3schools.com/howto/howto_css_modals.asp*/
         #que_somos {
             text-align: center;
             border: 1px solid blue;
@@ -62,44 +40,6 @@
             font-size: 25px;
         }
     </style>
-    <nav class="navbar navbar-default">
-        <div class="container-fluid" id="opciones">
-            <ul class="nav navbar-nav">
-                <li class="dropdown">
-                    <a class="btn_opciones" href="default.aspx" style="vertical-align: middle" onclick="inicio" type="submit">
-                        <div>
-                            <img src="imagenes/home-64.png" />
-                            <p>Inicio</p>
-                        </div>
-                    </a>
-                </li>
-                <li class="dropdown">
-                    <a class="btn_opciones" href="DQuienes Somos.aspx" style="vertical-align: middle">
-                        <div>
-                            <img src="imagenes/ui-04-2-64.png" />
-                            <p>Quienes Somos</p>
-                        </div>
-                    </a>
-                </li>
-                <li class="dropdown">
-                    <a class="btn_opciones" href="Doctores.aspx" onclick="Doctores" style="vertical-align: middle">
-                        <div>
-                            <img src="imagenes/x-05-64.png" />
-                            <p>Ver Doctores</p>
-                        </div>
-                    </a>
-                </li>
-                <li class="dropdown">
-                    <a class="btn_opciones" href="Dcontacto.aspx" onclick="Doctores" style="vertical-align: middle">
-                        <div>
-                            <img src="Imagenes/call-64.png" />
-                            <p>Contactanos</p>
-                        </div>
-                    </a>
-                </li>
-            </ul>
-        </div>
-    </nav>
     <section class="container-fluid">
         <div id="que_somos">
             <h1 style="font-size: 50px; color: #3498DB; font-family: 'Arial Rounded MT'">¿Que es MyAppointments?</h1>
