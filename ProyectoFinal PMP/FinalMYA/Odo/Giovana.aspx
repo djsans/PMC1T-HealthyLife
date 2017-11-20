@@ -45,6 +45,7 @@
         </div>
         <br style="clear: both" />
         <div>
+             <h1 style="font-size: 60px; color: #2471A3; font-weight: bold;"></h1>
             <h1 style="font-size: 60px; color: #2471A3; font-weight: bold;">Experiencia Laboral y titulos</h1>
         </div>
         <ul>
