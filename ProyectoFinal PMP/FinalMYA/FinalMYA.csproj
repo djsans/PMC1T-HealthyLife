@@ -70,6 +70,7 @@
     <Content Include="App_Data\Myappointments_log.ldf">
       <DependentUpon>Myappointments.mdf</DependentUpon>
     </Content>
+    <Content Include="App_Data\XMLFile1.xml" />
     <Content Include="Contacto.aspx" />
     <Content Include="editarPerfil.aspx" />
     <Content Include="Imagenes\profle-256.png" />
