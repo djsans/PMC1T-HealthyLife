@@ -72,6 +72,7 @@
     </Content>
     <Content Include="editarPerfil.aspx" />
     <Content Include="Imagenes\profle-256.png" />
+    <Content Include="Login.aspx" />
     <Content Include="Scripts\npm.js" />
     <Content Include="estilo\bootstrap-theme.css" />
     <Content Include="estilo\bootstrap-theme.min.css" />
@@ -140,7 +141,7 @@
     <Content Include="Imagenes\horario.png" />
     <Content Include="Imagenes\logo_myappointments.png" />
     <Content Include="Imagenes\x-05-128.png" />
-    <Content Include="Login.aspx" />
+    <Content Include="Login1.aspx" />
     <Content Include="Odo\Alvaro.aspx" />
     <Content Include="Odo\Ammy.aspx" />
     <Content Include="Odo\Giovana.aspx" />
@@ -248,6 +249,13 @@
     </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="Login1.aspx.cs">
+      <DependentUpon>Login1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Login1.aspx.designer.cs">
+      <DependentUpon>Login1.aspx</DependentUpon>
     </Compile>
     <Compile Include="Login.aspx.cs">
       <DependentUpon>Login.aspx</DependentUpon>

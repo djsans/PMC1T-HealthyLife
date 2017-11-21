@@ -34,7 +34,7 @@
     </header>
     <form id="form1" runat="server">
         <h1>Registro</h1>
-        <asp:CreateUserWizard ID="CreateUserWizard1" runat="server" ActiveStepIndex="1">
+        <asp:CreateUserWizard ID="CreateUserWizard1" runat="server">
             <WizardSteps>
                 <asp:CreateUserWizardStep ID="CreateUserWizardStep1" runat="server">
                     <ContentTemplate>
@@ -77,19 +77,8 @@
                 </asp:CreateUserWizardStep>
                 <asp:CompleteWizardStep ID="CompleteWizardStep1" runat="server">
                     <ContentTemplate>
-                        <table>
-                            <tr>
-                                <td align="center">Completado :D</td>
-                            </tr>
-                            <tr>
-                                <td>La cuenta se ha creado correctamente.</td>
-                            </tr>
-                            <tr>
-                                <td align="right">
-                                    <asp:Button ID="ContinueButton" runat="server" CausesValidation="False" CommandName="Continue" Text="Continuar" ValidationGroup="CreateUserWizard1" OnClick="ContinueButton_Click" />
-                                </td>
-                            </tr>
-                        </table>
+                        <h1>Completado :D usted se a registrado exitosamente</h1>
+                        <asp:Button ID="ContinueButton" runat="server" CausesValidation="False" CommandName="Continue" Text="Continuar" ValidationGroup="CreateUserWizard1" OnClick="ContinueButton_Click" />
                     </ContentTemplate>
 
                 </asp:CompleteWizardStep>

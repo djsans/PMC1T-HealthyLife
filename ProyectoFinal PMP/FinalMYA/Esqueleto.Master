@@ -96,16 +96,17 @@
                         </li>
                     </ul>
                     <ul class="nav navbar-nav navbar-right">
+                        <asp:LoginName ID="LoginName1" runat="server" />
                         <asp:LoginView ID="LoginView1" runat="server">
                             <AnonymousTemplate>
                                 <li>
-                                    <asp:Button ID="Button1" runat="server" Text="Button" OnClick="Button1_Click1" /></li>
+                                    <asp:Button ID="log_in" runat="server" Text="Log in" OnClick="log_in_Click1" /></li>
                                 <li>
-                                    <asp:Button ID="Button2" runat="server" Text="Button" /></li>
+                                    <asp:Button ID="registrarse" runat="server" Text="Registrarse" OnClick="registrarse_Click" /></li>
                             </AnonymousTemplate>
                             <LoggedInTemplate>
                                 <li>
-                                    <asp:Button ID="Button1" runat="server" Text="Cerrar sesion" OnClick="Button1_Click2" /></li>
+                                    <asp:Button ID="log_out" runat="server" Text="Cerrar sesion" OnClick="log_out_Click"/></li>
                             </LoggedInTemplate>
                         </asp:LoginView>
 

@@ -15,17 +15,17 @@ namespace FinalMYA
 
         }
 
-        protected void Button1_Click(object sender, EventArgs e)
+        protected void log_in_Click1(object sender, EventArgs e)
         {
             Response.Redirect("Login.aspx");
         }
 
-        protected void Button1_Click1(object sender, EventArgs e)
+        protected void registrarse_Click(object sender, EventArgs e)
         {
-
+            Response.Redirect("Registro.aspx");
         }
 
-        protected void Button1_Click2(object sender, EventArgs e)
+        protected void log_out_Click(object sender, EventArgs e)
         {
             FormsAuthentication.SignOut();
             Response.Redirect("Default.aspx");
