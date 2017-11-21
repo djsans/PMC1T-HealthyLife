@@ -1,10 +1,8 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Esqueleto.Master" AutoEventWireup="true" CodeBehind="Doctores.aspx.cs" Inherits="FinalMYA.clienteInt1" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
-    <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>jQuery UI Accordion - Default functionality</title>
         <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
         <link rel="stylesheet" href="/resources/demos/style.css">
         <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
@@ -14,8 +12,6 @@
                 $("#accordion").accordion();
             });
         </script>
-    </head>
-    <body>
         <h2 style="color:white; text-align:center; padding:20px;font-family: 'Eras ITC';">Aquí podras buscar el médico que mas te convenga puedes buscarlo por categorías, dando click
             al nombre iras directamente a su perfil. Si ya sabes a que medico buscaras escribe su codigo en el buscador
             y apreta el bóton buscar para ir a su perfil.

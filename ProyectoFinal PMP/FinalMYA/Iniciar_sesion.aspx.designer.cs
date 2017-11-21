@@ -10,7 +10,7 @@
 namespace FinalMYA {
     
     
-    public partial class Log_in {
+    public partial class Iniciar_sesion {
         
         /// <summary>
         /// Control form1.

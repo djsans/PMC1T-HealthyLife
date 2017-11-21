@@ -10,6 +10,6 @@
 namespace FinalMYA {
     
     
-    public partial class medicoInt1 {
+    public partial class Quienes_somos {
     }
 }

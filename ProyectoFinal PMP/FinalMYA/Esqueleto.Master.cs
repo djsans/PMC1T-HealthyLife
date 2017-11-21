@@ -17,7 +17,7 @@ namespace FinalMYA
 
         protected void log_in_Click1(object sender, EventArgs e)
         {
-            Response.Redirect("Login.aspx");
+            Response.Redirect("Iniciar_sesion.aspx");
         }
 
         protected void registrarse_Click(object sender, EventArgs e)

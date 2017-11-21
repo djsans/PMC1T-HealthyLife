@@ -7,11 +7,16 @@ using System.Web.UI.WebControls;
 
 namespace FinalMYA
 {
-    public partial class Log_in : System.Web.UI.Page
+    public partial class Iniciar_sesion : System.Web.UI.Page
     {
         protected void Page_Load(object sender, EventArgs e)
         {
 
+        }
+
+        protected void LoginButton_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("Default.aspx");
         }
     }
 }

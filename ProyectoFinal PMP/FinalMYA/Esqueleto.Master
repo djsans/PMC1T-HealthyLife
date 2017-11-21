@@ -71,7 +71,7 @@
                             </a>
                         </li>
                         <li class="dropdown">
-                            <a class="btn_opciones" href="DQuienes Somos.aspx" style="vertical-align: middle">
+                            <a class="btn_opciones" href="Quienes_somos.aspx" style="vertical-align: middle">
                                 <div>
                                     <img src="imagenes/ui-04-2-64.png" />
                                     <p>Quienes Somos</p>
@@ -87,7 +87,7 @@
                             </a>
                         </li>
                         <li class="dropdown">
-                            <a class="btn_opciones" href="Dcontacto.aspx" onclick="Doctores" style="vertical-align: middle">
+                            <a class="btn_opciones" href="Contacto.aspx" onclick="Doctores" style="vertical-align: middle">
                                 <div>
                                     <img src="Imagenes/call-64.png" />
                                     <p>Contactanos</p>

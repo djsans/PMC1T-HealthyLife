@@ -7,11 +7,11 @@ using System.Web.UI.WebControls;
 
 namespace FinalMYA
 {
-    public partial class DQuienes_Somos : System.Web.UI.Page
+    public partial class Contacto : System.Web.UI.Page
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-
+            //FormsAuthentication.SetAuthCookie("Pedro", false);
         }
     }
 }
